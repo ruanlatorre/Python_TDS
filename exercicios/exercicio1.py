@@ -1,0 +1,7 @@
+nome = input("Digite o seu nome completo: ")
+sobrenome = input("Digite seu sobrenome: ")
+email = input("Digite o seu email: ")
+idade = int(input("Digite a sua idade: "))
+cidade = input("Digite a sua cidade: ")
+estado = input("Digite o seu estado: ")
+print(f"Olá {nome} {sobrenome}, Seus dados são: \n Email: {email} \n Idade: {idade} \n Cidade: {cidade} \n Estado: {estado}. \n Bem-vindo(a) ao X!")
